@@ -1,0 +1,13 @@
+# Loại bỏ tất cả các file có đuôi .class ở bất kỳ đâu trong project
+*.class
+
+# Loại bỏ tất cả các thư mục có tên là build ở bất kỳ đâu
+**/build/
+
+# Nếu bạn dùng Maven, nên loại bỏ thêm thư mục target
+**/target/
+
+# Nếu bạn dùng các IDE như VS Code hoặc IntelliJ
+.vscode/
+.idea/
+*.iml
