@@ -1,5 +1,6 @@
 # Loại bỏ tất cả các file có đuôi .class ở bất kỳ đâu trong project
 *.class
+*.sh
 
 # Loại bỏ tất cả các thư mục có tên là build ở bất kỳ đâu
 **/build/
