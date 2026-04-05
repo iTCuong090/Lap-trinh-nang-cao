@@ -40,7 +40,8 @@ public class Main {
         // Regex "[^a-z\\s]" nghĩa là: giữ lại chữ cái (a-z) và khoảng trắng (\\s), xóa mọi thứ khác ví dụ như dấu câu, emoji, vv.
         String normalizedText = text.toLowerCase().replaceAll("[^a-z\\s]", "");
         
-        // Tách chuỗi thành mảng các từ, phân cách bằng một hoặc nhiều khoảng trắng
+        // Tách chuỗi thành mảng các từ, phân cách bằng một khoảng trắng.
+        // "\\s+" bao gồm "\s" có nghĩa là bất kì loại kí tự khoảng trắng nào (tab, xuống dòng, vv), + có nghĩa là từ 1 trở lên, \ là kí tự thoát String.
         String[] words = normalizedText.split("\\s+");
 
         // ---------------------------------------------------------
