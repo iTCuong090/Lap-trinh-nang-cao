@@ -25,9 +25,8 @@ public class Main {
             // Xử lý ngoại lệ khi chia cho 0
             System.out.println("Lỗi: Không thể thực hiện phép chia cho 0.");
         } finally {
-            // Khối lệnh luôn được thực thi dù có lỗi hay không
             System.out.println("Program finished.");
-            scanner.close(); // Đóng Scanner để giải phóng tài nguyên
+            scanner.close(); 
         }
     }
 }

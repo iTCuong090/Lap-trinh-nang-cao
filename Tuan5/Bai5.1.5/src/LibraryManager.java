@@ -36,7 +36,7 @@ public interface LibraryManager {
     void printAllBooks();
 }
 
-// 2.1 Phiên bản quản lý bằng ArrayList
+//Phiên bản quản lý bằng ArrayList
 class ArrayListLibrary implements LibraryManager {
     private List<Book> books = new ArrayList<>();
 
@@ -69,7 +69,7 @@ class ArrayListLibrary implements LibraryManager {
     }
 }
 
-// 2.2 Phiên bản quản lý bằng HashMap
+// Phiên bản quản lý bằng HashMap
 class HashMapLibrary implements LibraryManager {
     private Map<String, Book> books = new HashMap<>();
 
@@ -97,7 +97,7 @@ class HashMapLibrary implements LibraryManager {
     }
 }
 
-// 2.3 Phiên bản quản lý bằng TreeMap
+//Phiên bản quản lý bằng TreeMap
 class TreeMapLibrary implements LibraryManager {
     private Map<String, Book> books = new TreeMap<>();
 
