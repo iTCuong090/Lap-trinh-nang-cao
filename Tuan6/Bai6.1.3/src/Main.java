@@ -4,21 +4,18 @@ public class Main {
         String inputSetting2 = "mac";
 
         if (inputSetting1.equals("win")) {
-            WindowFactory winUI = new WindowFactory();
-            winUI.createButton();
-            winUI.createCheckbox();
-            winUI.renderAll();
+            UIFactory winFactory = new WindowFactory();
+            winFactory.createButton().render();
+            winFactory.createCheckbox().render();
 
         }
 
         if (inputSetting2.equals("mac")) {
-            MacFactory macUI = new MacFactory();
-            macUI.createButton();
-            macUI.createCheckbox();
-            macUI.renderAll();
+            UIFactory macFactory = new MacFactory();
+            macFactory.createButton().render();
+            macFactory.createCheckbox().render();
 
         }
-
 
     }
 }
