@@ -1,0 +1,1 @@
+Đây gọi là mẫu thiết kế Composite
